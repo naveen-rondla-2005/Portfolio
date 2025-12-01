@@ -122,10 +122,14 @@ body {
 }
 
 .nav__logo {
-    color: var(--text);
+    color: rgba(248, 250, 252, 0.75);
     font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: 2px;
+    text-decoration: none;
+}
+.nav__logo:hover {
+    color: rgba(248, 250, 252, 0.95);
 }
 
 .nav__menu {
